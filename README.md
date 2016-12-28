@@ -21,7 +21,7 @@ import { Box } from 'aframe-react-components';
 
 ## Usage
 
-See [aframe-react-boilerplate] for general usage of [aframe-react]. See [src/components.js] for support components.
+See [aframe-react-boilerplate] for general usage of [aframe-react]. See [src/components.js][components] for supported components.
 
 ## Installation
 
@@ -51,3 +51,4 @@ MIT License, Copyright (c) 2016 Jordan Santell
 [proptypes]: https://facebook.github.io/react/docs/react-component.html#proptypes
 [travis]: https://travis-ci.org/jsantell/aframe-react-components
 [npm]: https://www.npmjs.org/package/aframe-react-components
+[components]: https://github.com/jsantell/aframe-react-components/blob/master/src/components.js
