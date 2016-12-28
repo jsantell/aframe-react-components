@@ -3,6 +3,8 @@
 [![Build Status](http://img.shields.io/travis/jsantell/aframe-react-components.svg?style=flat-square)][travis]
 [![Build Status](http://img.shields.io/npm/v/aframe-react-components.svg?style=flat-square)][npm]
 
+** Still in development, do not use yet! Issues with [shorthand property mappings in aframe-react possibly?](https://github.com/ngokevin/aframe-react/issues/50) **
+
 Provides light sugar around [aframe-react's][aframe-react] `<Entity />` component. Instead of passing in a `primitive` attribute to an `<Entity />`, you can just use an [aframe-react-components] component.
 
 ```js
