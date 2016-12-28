@@ -4,6 +4,9 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = {
+  Animation: {
+    primitive: 'a-animation'
+  },
   Box: {
     primitive: 'a-box'
   },

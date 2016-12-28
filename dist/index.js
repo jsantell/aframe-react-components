@@ -3,7 +3,7 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.Videosphere = exports.Curvedimage = exports.VideoSphere = exports.Video = exports.Torus = exports.TorusKnot = exports.Tetrahedron = exports.Sphere = exports.Sound = exports.Sky = exports.Ring = exports.Plane = exports.Octahedron = exports.ObjModel = exports.Light = exports.Image = exports.Dodecahedron = exports.Cylinder = exports.CurvedImage = exports.Cursor = exports.Cone = exports.ColladaModel = exports.Circle = exports.Camera = exports.Box = undefined;
+exports.Videosphere = exports.Curvedimage = exports.VideoSphere = exports.Video = exports.Torus = exports.TorusKnot = exports.Tetrahedron = exports.Sphere = exports.Sound = exports.Sky = exports.Ring = exports.Plane = exports.Octahedron = exports.ObjModel = exports.Light = exports.Image = exports.Dodecahedron = exports.Cylinder = exports.CurvedImage = exports.Cursor = exports.Cone = exports.ColladaModel = exports.Circle = exports.Camera = exports.Box = exports.Animation = undefined;
 
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
@@ -39,6 +39,7 @@ var Components = Object.keys(_components2.default).reduce(function (result, comp
 }, {});
 
 // :[
+var Animation = exports.Animation = Components.Animation;
 var Box = exports.Box = Components.Box;
 var Camera = exports.Camera = Components.Camera;
 var Circle = exports.Circle = Components.Circle;

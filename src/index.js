@@ -18,6 +18,7 @@ const Components = Object.keys(componentsData).reduce((result, compName) => {
 }, {});
 
 // :[
+export const Animation = Components.Animation;
 export const Box = Components.Box;
 export const Camera = Components.Camera;
 export const Circle = Components.Circle;
