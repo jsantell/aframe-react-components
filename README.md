@@ -3,7 +3,7 @@
 [![Build Status](http://img.shields.io/travis/jsantell/aframe-react-components.svg?style=flat-square)][travis]
 [![Build Status](http://img.shields.io/npm/v/aframe-react-components.svg?style=flat-square)][npm]
 
-Provides light sugar around [aframe-react's] `<Entity />` component. Instead of passing in a `primitive` attribute to an `<Entity />`, you can just use an [aframe-react-component] component.
+Provides light sugar around [aframe-react's][aframe-react] `<Entity />` component. Instead of passing in a `primitive` attribute to an `<Entity />`, you can just use an [aframe-react-components] component.
 
 ```js
 import { Entity } from 'aframe-react';
@@ -46,7 +46,7 @@ May possibly tie in [React PropTypes][proptypes] to components for aid in develo
 MIT License, Copyright (c) 2016 Jordan Santell
 
 [aframe-react]: https://www.npmjs.com/package/aframe-react
-[aframe-react-component]: https://www.npmjs.com/package/aframe-react-component
+[aframe-react-components]: https://www.npmjs.com/package/aframe-react-component
 [aframe-react-boilerplate]: https://github.com/ngokevin/aframe-react-boilerplate
 [proptypes]: https://facebook.github.io/react/docs/react-component.html#proptypes
 [travis]: https://travis-ci.org/jsantell/aframe-react-components
