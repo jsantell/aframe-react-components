@@ -59,6 +59,9 @@ export default {
   Tetrahedron: {
     primitive: 'a-tetrahedron',
   },
+  Text: {
+    primitive: 'a-text',
+  },
   TorusKnot: {
     primitive: 'a-torus-knot',
   },

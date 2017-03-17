@@ -5,8 +5,8 @@ import componentsData from './components';
 
 const OMIT_PROPS = ['primitive'];
 
-const renderEntityWithPrimitive = name => props =>
-  <Entity primitive={name} {...omit(props, OMIT_PROPS)} />;
+const renderEntityWithPrimitive = primitive => props =>
+  React.createElement(primitive, props);
 
 const Components = Object.keys(componentsData).reduce((result, compName) => {
   const compData = componentsData[compName];
@@ -38,6 +38,7 @@ export const Sky = Components.Sky;
 export const Sound = Components.Sound;
 export const Sphere = Components.Sphere;
 export const Tetrahedron = Components.Tetrahedron;
+export const Text = Components.Text;
 export const TorusKnot = Components.TorusKnot;
 export const Torus = Components.Torus;
 export const Video = Components.Video;

@@ -5,8 +5,6 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.Videosphere = exports.Curvedimage = exports.VideoSphere = exports.Video = exports.Torus = exports.TorusKnot = exports.Tetrahedron = exports.Sphere = exports.Sound = exports.Sky = exports.Ring = exports.Plane = exports.Octahedron = exports.ObjModel = exports.Light = exports.Image = exports.Dodecahedron = exports.Cylinder = exports.CurvedImage = exports.Cursor = exports.Cone = exports.ColladaModel = exports.Circle = exports.Camera = exports.Box = exports.Animation = undefined;
 
-var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
-
 var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
@@ -23,9 +21,9 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 var OMIT_PROPS = ['primitive'];
 
-var renderEntityWithPrimitive = function renderEntityWithPrimitive(name) {
+var renderEntityWithPrimitive = function renderEntityWithPrimitive(primitive) {
   return function (props) {
-    return _react2.default.createElement(_aframeReact.Entity, _extends({ primitive: name }, (0, _utils.omit)(props, OMIT_PROPS)));
+    return _react2.default.createElement(primitive, props);
   };
 };
 
